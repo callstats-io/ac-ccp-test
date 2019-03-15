@@ -1,0 +1,14 @@
+{
+  "name": "docker_ac_agent",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "csio folks",
+  "main": "auto_agent.js",
+  "scripts": {
+    "start": "node auto_agent.js"
+  },
+  "dependencies": {
+    "log-timestamp": "^0.3.0",
+    "puppeteer": "^1.13.0"
+  }
+}
